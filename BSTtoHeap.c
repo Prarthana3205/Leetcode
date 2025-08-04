@@ -1,6 +1,7 @@
 /* Question: Convert a given BST into a Special Max Heap with the condition
 that all the values in the left subtree of a node should be less than all the values in the right subtree 
 of the node.This condition is applied on all the nodes in the so converted Max Heap.
+
 Approach:
 1: BST insertion
 2: Inorder traversal to get the values in sorted order
@@ -52,6 +53,7 @@ void inorder(struct node* root,int* arr,int* ind)
     arr[(*ind)++]=root->data;
     inorder(root->right,arr,ind);
 }
+
 void postorder(struct node* root)
 {
     if(root)
