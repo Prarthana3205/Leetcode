@@ -1,7 +1,6 @@
 /* Question: 1557  Minimum Number of Vertices to Reach All Nodes
 https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes
-Find the smallest set of vertices from which all nodes in a directed graph can be reached.
-This code reads the number of nodes and edges, then the edges themselves, and outputs the smallest set of vertices.
+
 Approach:
 find nodes no incoming edges, those nodes are the starting points.
 nodes with no incoming edges can be reached from any other node.
