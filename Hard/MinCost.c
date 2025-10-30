@@ -6,7 +6,7 @@ https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time
 Approach: Dijkstra's algorithm with a min-heap
 min heap to obtain the minimum cost path
 
-NOT SOLVED COMPLETELY
+NOT SOLVED COMPLETELY in C
 
  */
 #include <stdio.h>
