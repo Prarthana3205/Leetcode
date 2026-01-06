@@ -1,4 +1,6 @@
-# Write your MySQL query statement below
+-- 1251. Average Selling Price
+-- https://leetcode.com/problems/average-selling-price/description/
+
 select p.product_id,round(
     ifnull(SUM(p.price*u.units)/SUM(units),0) // if null it will replace with 0 
     ,2) as average_price

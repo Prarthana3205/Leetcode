@@ -1,3 +1,6 @@
+-- 1633. Percentage of Users Attended a Contest
+-- https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/
+
 select contest_id,round(
     (count(distinct user_id)/(select count(*) from Users))*100
     ,2)as percentage

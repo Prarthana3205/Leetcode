@@ -1,3 +1,6 @@
+-- 1661. Average Time of Process per Machine
+-- https://leetcode.com/problems/average-time-of-process-per-machine/description/
+
 select machine_id,
 round(avg(end_time-start_time),3) as processing_time from
 (select machine_id,process_id,

@@ -1,3 +1,6 @@
+-- 1280. Students and Examinations
+-- https://leetcode.com/problems/students-and-examinations/description/
+
 select stu.student_id,stu.student_name,sub.subject_name,count(e.subject_name) as attended_exams
 from Students stu
 cross join Subjects sub

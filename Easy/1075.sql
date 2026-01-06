@@ -1,3 +1,6 @@
+-- 1075. Project Employees I
+-- https://leetcode.com/problems/project-employees-i/description/
+
 select p.project_id,round(avg(experience_years),2) as average_years
 from Project p
 join Employee e

@@ -1,3 +1,6 @@
+-- 577. Employee Bonus
+-- https://leetcode.com/problems/employee-bonus/description/
+
 select e.name,b.bonus
 from Employee e
 left join Bonus b
