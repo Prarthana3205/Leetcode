@@ -1,4 +1,4 @@
--- Trips and Users
+-- 262. Trips and Users
 -- https://leetcode.com/problems/trips-and-users/description
 
 select request_at as Day,

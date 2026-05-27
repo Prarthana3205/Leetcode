@@ -1,8 +1,9 @@
-/*Question: 84. Largest Rectangle in Histogram
-    https://leetcode.com/problems/largest-rectangle-in-histogram/
-    Approach: Use a stack to keep track of the indices of the histogram bars.
-    For each bar, calculate the area with the height of the bar at the top of the stack
-    and update the maximum area accordingly.
+/*
+84. Largest Rectangle in Histogram
+https://leetcode.com/problems/largest-rectangle-in-histogram/
+Approach: Use a stack to keep track of the indices of the histogram bars.
+For each bar, calculate the area with the height of the bar at the top of the stack
+and update the maximum area accordingly.
 */
 
 // Time Limit Exceeded (89/99)

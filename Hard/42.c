@@ -1,4 +1,5 @@
-/*Question: 42. Trapping rain water
+/*
+42. Trapping rain water
 https://leetcode.com/problems/trapping-rain-water/
 */
 int trap(int* height, int heightSize) {

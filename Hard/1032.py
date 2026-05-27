@@ -1,4 +1,4 @@
-# Stream of Characters - Suffix Trie Implementation
+# 1032. Stream of Characters - Suffix Trie Implementation
 # https://leetcode.com/problems/stream-of-characters/
 
 '''
