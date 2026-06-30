@@ -1,1 +1,0 @@
-gcc 3-Seating.c -o 3-Seating -lm && ./3-Seating

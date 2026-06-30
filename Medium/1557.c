@@ -3,8 +3,8 @@
 https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes
 
 Approach:
-find nodes no incoming edges, those nodes are the starting points.
-nodes with no incoming edges can be reached from any other node.
+find nodes with no incoming edges, those nodes are the starting points.
+nodes with no incoming edges cannot be reached from any other node.
 */
 
 #include <stdio.h>
