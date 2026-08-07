@@ -1,5 +1,6 @@
 #1792. Maximum Average Pass Ratio
 #https://leetcode.com/problems/maximum-average-pass-ratio/
+
 # in python heapq by default is min heap therefore to obtain max gain we introduce negative sign
 
 from typing import List

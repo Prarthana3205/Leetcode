@@ -1,7 +1,8 @@
--- Rank Scores without using dense_rank()
+-- 178. Rank Scores
 -- https://leetcode.com/problems/rank-scores/
 
--- Leetcode does not accept dense_rank()
+-- Rank Scores without using dense_rank()
+
 select s1.score,
 (select count(distinct s2.score) from Scores s2
 where s2.score>=s1.score) as `rank` 

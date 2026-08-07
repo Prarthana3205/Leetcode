@@ -1,5 +1,6 @@
 # 5. Longest Palindromic Substring
 # https://leetcode.com/problems/longest-palindromic-substring
+
 # Approach: Expand Around Center
 
 class Solution:

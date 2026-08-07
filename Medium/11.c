@@ -1,5 +1,6 @@
 /*  11. Container With Most Water
     https://leetcode.com/problems/container-with-most-water/
+    
     Brute force approach would be to check every pair of lines and calculate the area.
     Approach: Use two pointers, one at the start and one at the end of the array.
     Calculate the area and move the pointer pointing to the shorter line inward.

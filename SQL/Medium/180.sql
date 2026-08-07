@@ -1,4 +1,4 @@
--- Find all numbers that appear at least three times consecutively in the Logs table.
+-- 180. Consequetive Numbers
 -- https://leetcode.com/problems/consecutive-numbers
 
 select distinct num as ConsecutiveNums from

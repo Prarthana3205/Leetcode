@@ -1,6 +1,7 @@
-// 146. LRU Cache
+// 146. LRU Cache 
 // https://leetcode.com/problems/lru-cache/
 
+// IMPORTANT QUESTION !!!
 // Maintain a HashMap for easy lookup and DLL for MRU and LRU
 
 import java.util.HashMap;
@@ -45,8 +46,10 @@ class LRUCache {
         n.next.prev=n.prev;
     }
 
-    void insert(Node node)
+    void insert(Node node) 
     {
+        // Inserting a node between head and the initial node after head
+        // Node inserted will the most recently used node therefore inserted at first 
         node.prev=head;
         node.next=head.next;
         head.next.prev=node;

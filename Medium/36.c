@@ -1,4 +1,4 @@
-/* Question 36: https://leetcode.com/problems/valid-sudoku/
+/* 36: https://leetcode.com/problems/valid-sudoku/
    Approach: Use three arrays to track the numbers in each row, column, and 3x3 box.
    If a number is already present in any of these, return false.
 */

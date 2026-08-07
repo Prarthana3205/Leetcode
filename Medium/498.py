@@ -1,5 +1,6 @@
 # 498. Diagonal Traverse
 # https://leetcode.com/problems/diagonal-traverse/
+
 # Obtain all diagonals and reverse alternate diagonals
 
 from typing import List
