@@ -1,6 +1,7 @@
 // 381. Insert Delete GetRandom O(1) duplicated allowed
 // https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/
 
+import java.util.*;
 class RandomizedCollection {
 
     List<Integer> list;

@@ -22,5 +22,6 @@ DSAQs/
 ## Languages Supported
 
 - C
+- Java
 - Python
 - SQL

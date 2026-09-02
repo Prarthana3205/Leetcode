@@ -13,5 +13,5 @@ select distinct accepter_id,
 from RequestAccepted ra1) temp
 order by num desc limit 1;
 
--- Initially mistake made was forgot to consider acceptor_id as well under id column
+-- Initially forgot to consider acceptor_id as well under id column
 -- So had to do union of two subqueries to get total friends for each user

@@ -20,6 +20,8 @@
 //     }
 // }
 
+
+// Need to go uphill to find the peak element. binary search to find the peak element in O(log n) time complexity.
 class Solution {
     public int findPeakElement(int[] nums) {        
         int left=0;
