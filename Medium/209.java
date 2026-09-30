@@ -3,6 +3,7 @@
 
 // Sliding Window Approach
 // Order of the array breaks when smallest number is encountered 
+
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         int left=0,sum=0;

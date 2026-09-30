@@ -1,6 +1,8 @@
-/* 36: https://leetcode.com/problems/valid-sudoku/
-   Approach: Use three arrays to track the numbers in each row, column, and 3x3 box.
-   If a number is already present in any of these, return false.
+/* 
+36: Valid Sudoku
+https://leetcode.com/problems/valid-sudoku/
+Approach: Use three arrays to track the numbers in each row, column, and 3x3 box.
+If a number is already present in any of these, return false.
 */
 bool isValidSudoku(char** board, int boardSize, int* boardColSize) {
     int i,j,indr,indc,indb;
