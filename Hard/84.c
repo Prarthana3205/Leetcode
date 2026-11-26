@@ -6,30 +6,6 @@ For each bar, calculate the area with the height of the bar at the top of the st
 and update the maximum area accordingly.
 */
 
-// Time Limit Exceeded (89/99)
-int largestRectangleArea(int* heights, int heightsSize) {
-    int max=INT_MIN,area,width,l,r;
-    for(int i=0;i<heightsSize;i++)
-    {
-        width=1;
-        l=i-1;
-        r=i+1;
-        while(l>=0 && heights[l]>=heights[i])
-        {
-            l--;
-            width++;
-        }
-        while(r<heightsSize && heights[r]>=heights[i])
-        {
-            r++;
-            width++;
-        }
-        area=heights[i]*width;
-        max=(max>area)?max:area;    
-    }
-    return max;    
-}
-
 // Stack Approach
 int largestRectangleArea(int* heights, int heightsSize) {
     int* stack=malloc(heightsSize*sizeof(int));
@@ -54,3 +30,29 @@ int largestRectangleArea(int* heights, int heightsSize) {
     }
     return max;
 }
+
+/*
+// Time Limit Exceeded (89/99)
+int largestRectangleArea(int* heights, int heightsSize) {
+    int max=INT_MIN,area,width,l,r;
+    for(int i=0;i<heightsSize;i++)
+    {
+        width=1;
+        l=i-1;
+        r=i+1;
+        while(l>=0 && heights[l]>=heights[i])
+        {
+            l--;
+            width++;
+        }
+        while(r<heightsSize && heights[r]>=heights[i])
+        {
+            r++;
+            width++;
+        }
+        area=heights[i]*width;
+        max=(max>area)?max:area;    
+    }
+    return max;    
+}
+*/

@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-A collection of Data Structure and Algorithm practice problems, with solutions in C, Java, Python, and SQL.
+A collection of LeetCode solutions in Java, C, Python and SQL, organized by difficulty.
 
 | Question # | Title | Language | Difficulty |
 | ---: | --- | --- | --- |
@@ -38,8 +38,7 @@ A collection of Data Structure and Algorithm practice problems, with solutions i
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [C](Medium/73.c) | Medium |
 | 74 | [Search a 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Java](Medium/74.java) | Medium |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Java](Medium/79.java) | Medium |
-| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C](Hard/84.c) | Hard |
-| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Java](Hard/84.java) | Hard |
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C](Hard/84.c); [Java](Hard/84.java) | Hard |
 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Java](Hard/85.java) | Hard |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | [Java](Medium/89.java) | Medium |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [C](Medium/95.c) | Medium |
@@ -56,8 +55,7 @@ A collection of Data Structure and Algorithm practice problems, with solutions i
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [Java](Medium/133.java) | Medium |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](Easy/136.java) | Easy |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [Java](Medium/137.java) | Medium |
-| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C](Medium/146.c) | Medium |
-| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](Medium/146.java) | Medium |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C](Medium/146.c); [Java](Medium/146.java) | Medium |
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Java](Hard/149.java) | Hard |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Java](Medium/150.java) | Medium |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Java](Medium/153.java) | Medium |
@@ -102,8 +100,7 @@ A collection of Data Structure and Algorithm practice problems, with solutions i
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [Java](Medium/443.java) | Medium |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Java](Easy/448.java) | Easy |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | [Java](Medium/453.java) | Medium |
-| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | [C](Hard/460.c) | Hard |
-| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | [Java](Hard/460.java) | Hard |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | [C](Hard/460.c); [Java](Hard/460.java) | Hard |
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [Java](Medium/462.java) | Medium |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Java](Easy/485.java) | Easy |
 | 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](Medium/498.py) | Medium |
@@ -128,8 +125,7 @@ A collection of Data Structure and Algorithm practice problems, with solutions i
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Java](Medium/739.java) | Medium |
 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | [Java](Easy/812.java) | Easy |
 | 833 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | [Java](Easy/833.java) | Easy |
-| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [C](Hard/847.c) | Hard |
-| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [Java](Hard/847.java) | Hard |
+| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [C](Hard/847.c); [Java](Hard/847.java) | Hard |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [Java](Medium/856.java) | Medium |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [Java](Medium/877.java) | Medium |
 | 956 | [Tallest Billboard](https://leetcode.com/problems/tallest-billboard/) | [Java](Hard/956.java) | Hard |
@@ -165,8 +161,7 @@ A collection of Data Structure and Algorithm practice problems, with solutions i
 | 1502 | [Can Make Arithmetic Progression from Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [Java](Easy/1502.java) | Easy |
 | 1517 | [Find Users with Valid E Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | [SQL](SQL/Easy/1517.sql) | Easy |
 | 1527 | [Patients with a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [SQL](SQL/Easy/1527.sql) | Easy |
-| 1557 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [C](Medium/1557.c) | Medium |
-| 1557 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [Java](Medium/1557.java) | Medium |
+| 1557 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [C](Medium/1557.c); [Java](Medium/1557.java) | Medium |
 | 1581 | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [SQL](SQL/Easy/1581.sql) | Easy |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Java](Medium/1584.java) | Medium |
 | 1633 | [Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | [SQL](SQL/Easy/1633.sql) | Easy |
@@ -180,8 +175,7 @@ A collection of Data Structure and Algorithm practice problems, with solutions i
 | 1792 | [Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/) | [Python](Medium/1792.py) | Medium |
 | 1886 | [Number of Ways to Rearrange Sticks with K Sticks Visible](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) | [Java](Hard/1886.java) | Hard |
 | 1907 | [Category of Each Employee Based on Salary](https://leetcode.com/problems/category-of-each-employee-based-on-salary/) | [SQL](SQL/Medium/1907.sql) | Medium |
-| 1928 | [Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/) | [C](Hard/1928.c) | Hard |
-| 1928 | [Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/) | [Python](Hard/1928.py) | Hard |
+| 1928 | [Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/) | [C](Hard/1928.c); [Python](Hard/1928.py) | Hard |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | [Java](Easy/1929.java) | Easy |
 | 1934 | [Confirmation Rate](https://leetcode.com/problems/confirmation-rate/) | [SQL](SQL/Medium/1934.sql) | Medium |
 | 1975 | [Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/) | [Java](Medium/1975.java) | Medium |
